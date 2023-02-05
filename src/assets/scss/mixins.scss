@@ -1,0 +1,58 @@
+$medias: (
+  desktop: $mediaXlg,
+  tablet: $mediaLg,
+  phone: $mediaMd,
+  phoneSm: $mediaSm, 
+);
+
+@mixin media-queries($props) {
+  @each $mediaName, $mediaSize in $medias {
+    $propsRules: map-get($props, $mediaName);
+
+    @each $ruleName, $ruleValue in $propsRules {
+      & {
+        @media (max-width: map-get($medias, $mediaName)) {
+          #{$ruleName}: $ruleValue;
+        }
+      }
+    }
+  }
+}
+
+@mixin button-variant($color, $background) {
+  color: $color;
+  background-color: $background;
+
+  &:focus,
+  &.focus {
+    color: $color;
+    background-color: darken($background, 10%);
+  }
+  &:hover {
+    color: $color;
+    background-color: darken($background, 10%);
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: $color;
+    background-color: darken($background, 10%);
+    background-image: none;
+
+    &:hover,
+    &:focus,
+    &.focus {
+      color: $color;
+      background-color: darken($background, 17%);
+    }
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: $background;
+    }
+  }
+}
