@@ -1,6 +1,6 @@
 <template>
   <div class="users-page container">
-    <UsersFilter
+    <UserFilter
       :filters="filters"
       @input="onFilter"
     />
@@ -43,7 +43,7 @@ import { mapGetters } from 'vuex';
 import { byTypes, byAge, byName, byGender } from '@/utils/users';
 
 import UserCard from '@/components/UserCard';
-import UsersFilter from '@/components/UsersFilter';
+import UserFilter from '@/components/UserFilter';
 
 import Pagination from '@/components/Pagination.vue';
 
@@ -53,7 +53,7 @@ export default {
   components: {
     UserCard,
     Pagination,
-    UsersFilter,
+    UserFilter,
   },
 
   data () {
