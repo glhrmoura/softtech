@@ -3,7 +3,7 @@
     <div class="footer__conatainer container">
       <div class="footer__column">
         <h2 class="footer__column-title">
-          Institutional
+          SoftTech
         </h2>
         <nav class="footer__column-group">
           <ul class="footer__column-items">
