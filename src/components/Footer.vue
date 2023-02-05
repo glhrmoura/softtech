@@ -40,7 +40,7 @@
         </h2>
         <div class="footer__column-group">
           <h3 class="footer__column-subtitle">
-            General Support
+            Support
           </h3>
           <ul class="footer__column-items">
             <li class="footer__column-item">
