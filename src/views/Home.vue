@@ -17,7 +17,7 @@
             Come be <span class="home-page__intro-content__title--spotlight">tech</span>
           </h1>
           <p class="home-page__intro-content__description">
-            SoftTech offers innovative and customized solutions to improve its customers' efficiency and competitiveness.
+            SoftTech offers innovative and customized solutions to improve the efficiency and competitiveness of its customers.
           </p>
           <RouterLink
             tag="button"
@@ -118,6 +118,7 @@ export default {
 .home-page__intro-content__description {
   font-size: 20px;
   font-weight: 500;
+  line-height: 28px;
   margin: 12px 0px 0px 0px;
 
   @include media-queries(
