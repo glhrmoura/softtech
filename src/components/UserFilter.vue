@@ -99,7 +99,7 @@
       </form>
       <div v-show="isMobile" class="users-filter__btn-container">
         <button @click="close" class="btn btn-block btn-primary">
-          Feito
+          Done!
         </button>
       </div>
     </aside>
