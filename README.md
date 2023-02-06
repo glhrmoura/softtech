@@ -1,8 +1,8 @@
 <p align="center">
-  <img
-		style="object: contain; height: 150px"
-		src="https://raw.githubusercontent.com/glhrmoura/softtech/main/src/static/images/logo.png"
-	/>
+    <img
+        style="object: contain; height: 150px"
+	src="https://raw.githubusercontent.com/glhrmoura/softtech/main/src/static/images/logo.png"
+    />
 </p>
 
 # SoftTech
@@ -11,16 +11,16 @@ Website of a fictitious company called "SoftTech". In it we will be able to obta
 
 > SoftTech is a fictitious company, all data found on the site are for illustrative purposes.
 
+## Demo
+
+[**SoftTech**](https://visionary-mochi-c3d4db.netlify.app)
+
 ## Tools
 
 - Vue
 - Vuex
 - Vue Router
 - Scss
-
-## Demo
-
-[**SoftTech**](https://visionary-mochi-c3d4db.netlify.app)
 
 ## Setup
 
