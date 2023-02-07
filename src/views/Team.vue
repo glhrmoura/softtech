@@ -26,8 +26,8 @@
     <div v-if="!loading && pageCount" class="team-page__pagination">
       <Pagination
         v-model="selected"
-        prev-text="Voltar"
-        next-text="Avançar"
+        prev-text="Back"
+        next-text="Next"
         container-class="pagination"
         :click-handler="onPaginate"
         :page-count="pageCount"
