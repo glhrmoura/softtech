@@ -83,19 +83,20 @@ export default {
     position: absolute;
     transform: scale(2);
     background-color: $primaryColor;
+    border-radius: 50%;
   }
 }
 
 .checkbox__element {
-  height: 18px;
-  width: 18px;
+  height: 20px;
+  width: 20px;
   position: relative;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: $primaryBgColor;
   border: 1px solid $primaryBorderColor;
-  border-radius: 3px;
+  border-radius: 50%;
 }
 
 .checkbox__label {

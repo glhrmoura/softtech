@@ -1,6 +1,6 @@
-import { storeScaffold } from '@/utils/stores';
+import { vuexStore } from '@/utils/vuex';
 
-export default storeScaffold({
+export default vuexStore({
   state: {
     filterVisibility: false,
   },

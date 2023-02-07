@@ -5,8 +5,8 @@ import VueRouter from 'vue-router';
 import beforeEach from '@/router/beforeEach';
 
 import Home from '@/views/Home';
-import Users from '@/views/Users';
-import UserDetails from '@/views/UserDetails';
+import Team from '@/views/Team';
+import TeamMember from '@/views/TeamMember';
 
 Vue.use(VueRouter);
 
@@ -18,19 +18,19 @@ const routes = [
   },
 
   {
-    path: '/users',
+    path: '/team',
     component: { template: '<router-view />' },
     children: [
       {
         path: '/',
-        name: 'Users',
-        component: Users,
+        name: 'Team',
+        component: Team,
         meta: { filter: true },
       },
       {
         path: ':username',
-        name: 'UserDetails',
-        component: UserDetails,
+        name: 'TeamMember',
+        component: TeamMember,
         meta: { subpage: true },
       },
     ]

@@ -1,16 +1,18 @@
 <template>
   <transition name="slide">
-    <aside
-      class="users-filter__container"
-      v-if="isDesktop || filterVisibility"
-    >
-      <form class="users-filter__content" @submit.prevent>
-        <div class="users-filter__group">
-          <h4 class="users-filter__group__title">
-            NAME
+    <aside class="team-member-filter__container" v-if="isDesktop || filterVisibility">
+      <form class="team-member-filter__content" @submit.prevent>
+        <div class="team-member-filter__group">
+          <h4 class="team-member-filter__group__title">
+            Name
           </h4>
-          <div class="users-filter__input-text__container">
-            <img :src="require('@/assets/icons/search.svg')" alt="Search icon" />
+
+          <div class="team-member-filter__input-text__container">
+            <img
+              alt="Search icon"
+              :src="require('@/assets/icons/search.svg')"
+            />
+
             <input
               type="search"
               v-model="filters.name"
@@ -18,86 +20,98 @@
             />
           </div>
         </div>
-        <div class="users-filter__group">
-          <h4 class="users-filter__group__title">
-            AGE
+
+        <div class="team-member-filter__group">
+          <h4 class="team-member-filter__group__title">
+            Years at SoftTech
           </h4>
-          <div class="users-filter__range-slider">
-            <div class="users-filter__range-slider__value">
+
+          <div class="team-member-filter__range-slider">
+            <div class="team-member-filter__range-slider__value">
               0
             </div>
+
             <range-slider
               min="0"
               step="1"
-              max="100"
-              v-model="filters.age"
+              max="20"
+              v-model="filters.yearsAtCompany"
             />
-            <div class="users-filter__range-slider__value">
-              {{ filters.age }}
+
+            <div class="team-member-filter__range-slider__value">
+              {{ filters.yearsAtCompany }}
             </div>
           </div>
         </div>
-        <div class="users-filter__group">
-          <h4 class="users-filter__group__title">
-            TYPE
+
+         <div class="team-member-filter__group">
+          <h4 class="team-member-filter__group__title">
+            Gender
           </h4>
-          <ul class="users-filter__group__items">
-            <li class="users-filter__group__item">
+
+          <ul class="team-member-filter__group__items">
+            <li class="team-member-filter__group__item">
               <Checkbox
-                v-model="filters.types"
-                label="SPECIAL"
-                name="user-type"
-                value="special"
+                v-model="filters.genders"
+                label="Female"
+                name="team-member-gender"
+                value="female"
                 @input="onInput"
               />
             </li>
-            <li class="users-filter__group__item">
+
+            <li class="team-member-filter__group__item">
               <Checkbox
-                v-model="filters.types"
-                label="NORMAL"
-                name="user-type"
-                value="normal"
-                @input="onInput"
-              />
-            </li>
-            <li class="users-filter__group__item">
-              <Checkbox
-                v-model="filters.types"
-                label="HARD   WORK"
-                name="user-type"
-                value="hard-work"
+                v-model="filters.genders"
+                label="Male"
+                name="team-member-gender"
+                value="male"
                 @input="onInput"
               />
             </li>
           </ul>
         </div>
-        <div class="users-filter__group">
-          <h4 class="users-filter__group__title">
-            GENDER
+
+        <div class="team-member-filter__group">
+          <h4 class="team-member-filter__group__title">
+            Department
           </h4>
-          <ul class="users-filter__group__items">
-            <li class="users-filter__group__item">
+
+          <ul class="team-member-filter__group__items">
+            <li class="team-member-filter__group__item">
               <Checkbox
-                v-model="filters.genders"
-                label="MALE"
-                name="user-gender"
-                value="male"
+                v-model="filters.departments"
+                label="Administrative"
+                name="member-department"
+                value="administrative"
                 @input="onInput"
               />
             </li>
-            <li class="users-filter__group__item">
+
+            <li class="team-member-filter__group__item">
               <Checkbox
-                v-model="filters.genders"
-                label="FEMALE"
-                name="user-gender"
-                value="female"
+                v-model="filters.departments"
+                label="Sales"
+                name="member-department"
+                value="sales"
+                @input="onInput"
+              />
+            </li>
+
+            <li class="team-member-filter__group__item">
+              <Checkbox
+                v-model="filters.departments"
+                label="Tech"
+                name="member-department"
+                value="tech"
                 @input="onInput"
               />
             </li>
           </ul>
         </div>
       </form>
-      <div v-show="isMobile" class="users-filter__btn-container">
+
+      <div v-show="isMobile" class="team-member-filter__btn-container">
         <button @click="close" class="btn btn-block btn-primary">
           Done!
         </button>
@@ -113,7 +127,7 @@ import RangeSlider from 'vue-range-slider';
 import Checkbox from '@/components/Checkbox';
 
 export default {
-  name: 'UserFilter',
+  name: 'TeamMemberFilter',
 
   components: {
     Checkbox,
@@ -152,14 +166,14 @@ $filter-width: 250px;
   transform: translateX(-100vw);
 }
 
-.users-filter__btn-container {
+.team-member-filter__btn-container {
   display: flex;
   padding: 8px;
   width: $filter-width;
   border-top: 1px solid $primaryBorderColor;
 }
 
-.users-filter__container {
+.team-member-filter__container {
   position: absolute;
   height: 100%;
   left: 0px;
@@ -181,7 +195,7 @@ $filter-width: 250px;
   );
 }
 
-.users-filter__content {
+.team-member-filter__content {
   overflow: auto;
   height: 100%;
   width: $filter-width;
@@ -195,18 +209,18 @@ $filter-width: 250px;
   );
 }
 
-.users-filter__range-slider {
+.team-member-filter__range-slider {
   display: flex;
   align-items: center;
 
-  .users-filter__range-slider__value {
+  .team-member-filter__range-slider__value {
     width: 30px;
     text-align: center;
     font-size: 14px;
   }
 }
 
-.users-filter__input-text__container {
+.team-member-filter__input-text__container {
   position: relative;
 
   img {
@@ -227,20 +241,19 @@ $filter-width: 250px;
   }
 }
 
-.users-filter__group {
+.team-member-filter__group {
   padding: 12px;
   display: flex;
   flex-direction: column;
-  margin: 0px 0px 8px 0px;
 }
 
-.users-filter__group__title {
+.team-member-filter__group__title {
   font-size: 12px;
   font-weight: 800;
   margin: 0px 0px 16px 0px;
 }
 
-.users-filter__group__items {
+.team-member-filter__group__items {
   padding: 0px;
   margin: 0px;
   list-style: none;

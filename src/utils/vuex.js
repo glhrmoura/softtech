@@ -1,4 +1,4 @@
-export const initStores = () => ({
+export const vuexInit = () => ({
   mounted() {
     Object.keys(this.$store.state).forEach((key) => {
       this.$store.dispatch(`${key}/mounted`);
@@ -6,7 +6,7 @@ export const initStores = () => ({
   }
 });
 
-export const storeScaffold = (target) => {
+export const vuexStore = (target) => {
   const output = {
     namespaced: true,
     actions: {},

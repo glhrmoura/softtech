@@ -1,6 +1,6 @@
-import { storeScaffold } from '@/utils/stores';
+import { vuexStore } from '@/utils/vuex';
 
-export default storeScaffold({
+export default vuexStore({
   state: {
     isMobile: false,
     isDesktop: false,
@@ -30,7 +30,7 @@ export default storeScaffold({
         heigth: container.innerHeight,
       });
     };
-  
+
     compute(window);
 
     window.addEventListener('resize', () => compute(window));

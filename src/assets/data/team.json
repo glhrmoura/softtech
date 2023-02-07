@@ -1,5 +1,7 @@
 [
 	{
+			"yearsAtCompany": 4,
+			"department": "tech",
 			"username": "alejandra.rodrigues",
 			"gender": "female",
 			"name": {
@@ -39,6 +41,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "sales",
 			"username": "armando.dacruz",
 			"gender": "male",
 			"name": {
@@ -78,6 +82,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 18,
+			"department": "tech",
 			"username": "marilene.darocha",
 			"gender": "female",
 			"name": {
@@ -117,6 +123,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 4,
+			"department": "sales",
 			"username": "ariela.nunes",
 			"gender": "female",
 			"name": {
@@ -156,6 +164,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 18,
+			"department": "sales",
 			"username": "eleuterio.almeida",
 			"gender": "male",
 			"name": {
@@ -195,6 +205,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 11,
+			"department": "tech",
 			"username": "melania.jesus",
 			"gender": "female",
 			"name": {
@@ -234,6 +246,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "tech",
 			"username": "apolo.nunes",
 			"gender": "male",
 			"name": {
@@ -273,6 +287,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "tech",
 			"username": "gilda.pires",
 			"gender": "female",
 			"name": {
@@ -312,6 +328,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "sales",
 			"username": "oceano.jesus",
 			"gender": "male",
 			"name": {
@@ -351,6 +369,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "girao.darosa",
 			"gender": "male",
 			"name": {
@@ -390,6 +410,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "tech",
 			"username": "everaldo.daconceicao",
 			"gender": "male",
 			"name": {
@@ -429,6 +451,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "sales",
 			"username": "urea.costa",
 			"gender": "female",
 			"name": {
@@ -468,6 +492,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "sales",
 			"username": "otilia.nogueira",
 			"gender": "female",
 			"name": {
@@ -507,6 +533,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 7,
+			"department": "sales",
 			"username": "josini.nascimento",
 			"gender": "female",
 			"name": {
@@ -546,6 +574,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "tech",
 			"username": "dora.darocha",
 			"gender": "female",
 			"name": {
@@ -585,6 +615,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "administrative",
 			"username": "adelindo.porto",
 			"gender": "male",
 			"name": {
@@ -624,6 +656,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 7,
+			"department": "sales",
 			"username": "alcindo.dasneves",
 			"gender": "male",
 			"name": {
@@ -663,6 +697,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 7,
+			"department": "tech",
 			"username": "nadege.vieira",
 			"gender": "male",
 			"name": {
@@ -702,6 +738,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "tech",
 			"username": "alexandrino.moreira",
 			"gender": "male",
 			"name": {
@@ -741,6 +779,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 20,
+			"department": "administrative",
 			"username": "bartolomeu.martins",
 			"gender": "male",
 			"name": {
@@ -780,6 +820,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "administrative",
 			"username": "baldomero.duarte",
 			"gender": "male",
 			"name": {
@@ -819,6 +861,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "martiniano.peixoto",
 			"gender": "male",
 			"name": {
@@ -858,6 +902,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "administrative",
 			"username": "josefina.dias",
 			"gender": "female",
 			"name": {
@@ -897,6 +943,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 11,
+			"department": "tech",
 			"username": "dulia.carvalho",
 			"gender": "female",
 			"name": {
@@ -936,6 +984,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "dinora.freitas",
 			"gender": "female",
 			"name": {
@@ -975,6 +1025,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "sales",
 			"username": "mario.peixoto",
 			"gender": "male",
 			"name": {
@@ -1014,6 +1066,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "tech",
 			"username": "albenise.sales",
 			"gender": "female",
 			"name": {
@@ -1053,6 +1107,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "ian.cavalcanti",
 			"gender": "male",
 			"name": {
@@ -1092,6 +1148,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 11,
+			"department": "tech",
 			"username": "cicero.barbosa",
 			"gender": "male",
 			"name": {
@@ -1131,6 +1189,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "administrative",
 			"username": "leidemere.cardoso",
 			"gender": "female",
 			"name": {
@@ -1170,6 +1230,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "tech",
 			"username": "alfeu.castro",
 			"gender": "male",
 			"name": {
@@ -1209,6 +1271,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "sales",
 			"username": "siddartha.rezende",
 			"gender": "male",
 			"name": {
@@ -1248,6 +1312,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "administrative",
 			"username": "leonora.rocha",
 			"gender": "female",
 			"name": {
@@ -1287,6 +1353,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "tech",
 			"username": "josiele.moura",
 			"gender": "female",
 			"name": {
@@ -1326,6 +1394,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 20,
+			"department": "sales",
 			"username": "felicia.santos",
 			"gender": "female",
 			"name": {
@@ -1365,6 +1435,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 20,
+			"department": "sales",
 			"username": "priteche.moura",
 			"gender": "male",
 			"name": {
@@ -1404,6 +1476,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "administrative",
 			"username": "zenobia.daconceicao",
 			"gender": "female",
 			"name": {
@@ -1443,6 +1517,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "sales",
 			"username": "rubi.rodrigues",
 			"gender": "female",
 			"name": {
@@ -1482,6 +1558,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "administrative",
 			"username": "jandira.duarte",
 			"gender": "female",
 			"name": {
@@ -1521,6 +1599,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "administrative",
 			"username": "bernardo.moraes",
 			"gender": "male",
 			"name": {
@@ -1560,6 +1640,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 9,
+			"department": "sales",
 			"username": "odelia.moura",
 			"gender": "female",
 			"name": {
@@ -1599,6 +1681,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 7,
+			"department": "administrative",
 			"username": "divineia.dapaz",
 			"gender": "female",
 			"name": {
@@ -1638,6 +1722,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "amadeu.farias",
 			"gender": "male",
 			"name": {
@@ -1677,6 +1763,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "administrative",
 			"username": "sulene.alves",
 			"gender": "female",
 			"name": {
@@ -1716,6 +1804,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "neuton.novaes",
 			"gender": "male",
 			"name": {
@@ -1755,6 +1845,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 11,
+			"department": "sales",
 			"username": "deuvania.mendes",
 			"gender": "female",
 			"name": {
@@ -1794,6 +1886,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "tech",
 			"username": "leonor.fogaca",
 			"gender": "female",
 			"name": {
@@ -1833,6 +1927,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "tech",
 			"username": "jairo.caldeira",
 			"gender": "male",
 			"name": {
@@ -1872,6 +1968,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "tech",
 			"username": "isac.freitas",
 			"gender": "male",
 			"name": {
@@ -1911,6 +2009,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "denisia.mendes",
 			"gender": "female",
 			"name": {
@@ -1950,6 +2050,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "sales",
 			"username": "isai.daconceicao",
 			"gender": "male",
 			"name": {
@@ -1989,6 +2091,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "sales",
 			"username": "flora.daconceicao",
 			"gender": "female",
 			"name": {
@@ -2028,6 +2132,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "administrative",
 			"username": "liliam.barbosa",
 			"gender": "female",
 			"name": {
@@ -2067,6 +2173,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 17,
+			"department": "sales",
 			"username": "luisa.aragao",
 			"gender": "female",
 			"name": {
@@ -2106,6 +2214,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "tech",
 			"username": "abraim.dacosta",
 			"gender": "male",
 			"name": {
@@ -2145,6 +2255,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "estela.melo",
 			"gender": "female",
 			"name": {
@@ -2184,6 +2296,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "administrative",
 			"username": "anatole.barbosa",
 			"gender": "female",
 			"name": {
@@ -2223,6 +2337,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "sales",
 			"username": "clair.darosa",
 			"gender": "female",
 			"name": {
@@ -2262,6 +2378,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "sales",
 			"username": "indra.duarte",
 			"gender": "male",
 			"name": {
@@ -2301,6 +2419,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "luciara.melo",
 			"gender": "female",
 			"name": {
@@ -2340,6 +2460,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 20,
+			"department": "administrative",
 			"username": "omer.lima",
 			"gender": "male",
 			"name": {
@@ -2379,6 +2501,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 9,
+			"department": "tech",
 			"username": "carla.freitas",
 			"gender": "female",
 			"name": {
@@ -2418,6 +2542,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "sales",
 			"username": "liliane.peixoto",
 			"gender": "female",
 			"name": {
@@ -2457,6 +2583,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "tech",
 			"username": "rivelino.rodrigues",
 			"gender": "male",
 			"name": {
@@ -2496,6 +2624,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 17,
+			"department": "administrative",
 			"username": "deolindo.dacunha",
 			"gender": "male",
 			"name": {
@@ -2535,6 +2665,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "administrative",
 			"username": "asdrubal.fernandes",
 			"gender": "male",
 			"name": {
@@ -2574,6 +2706,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "administrative",
 			"username": "norisete.moraes",
 			"gender": "female",
 			"name": {
@@ -2613,6 +2747,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "administrative",
 			"username": "isilda.desouza",
 			"gender": "female",
 			"name": {
@@ -2652,6 +2788,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "sales",
 			"username": "fausto.santos",
 			"gender": "male",
 			"name": {
@@ -2691,6 +2829,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "sales",
 			"username": "enilda.aragao",
 			"gender": "female",
 			"name": {
@@ -2730,6 +2870,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 14,
+			"department": "sales",
 			"username": "melchior.dacunha",
 			"gender": "male",
 			"name": {
@@ -2769,6 +2911,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "administrative",
 			"username": "denice.ribeiro",
 			"gender": "female",
 			"name": {
@@ -2808,6 +2952,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 11,
+			"department": "sales",
 			"username": "fabiola.peixoto",
 			"gender": "female",
 			"name": {
@@ -2847,6 +2993,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "administrative",
 			"username": "cloe.duarte",
 			"gender": "female",
 			"name": {
@@ -2886,6 +3034,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "sales",
 			"username": "diego.campos",
 			"gender": "male",
 			"name": {
@@ -2925,6 +3075,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "sales",
 			"username": "helmut.costa",
 			"gender": "male",
 			"name": {
@@ -2964,6 +3116,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "tech",
 			"username": "salma.vieira",
 			"gender": "male",
 			"name": {
@@ -3003,6 +3157,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "sales",
 			"username": "melinda.lopes",
 			"gender": "female",
 			"name": {
@@ -3042,6 +3198,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "tech",
 			"username": "marisvalda.martins",
 			"gender": "female",
 			"name": {
@@ -3081,6 +3239,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "tech",
 			"username": "noara.monteiro",
 			"gender": "female",
 			"name": {
@@ -3120,6 +3280,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "administrative",
 			"username": "erique.aragao",
 			"gender": "male",
 			"name": {
@@ -3159,6 +3321,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "administrative",
 			"username": "amilcar.barbosa",
 			"gender": "male",
 			"name": {
@@ -3198,6 +3362,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 4,
+			"department": "administrative",
 			"username": "ada.melo",
 			"gender": "female",
 			"name": {
@@ -3237,6 +3403,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "tech",
 			"username": "mari.caldeira",
 			"gender": "female",
 			"name": {
@@ -3276,6 +3444,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 9,
+			"department": "sales",
 			"username": "licio.rezende",
 			"gender": "male",
 			"name": {
@@ -3315,6 +3485,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "administrative",
 			"username": "rui.goncalves",
 			"gender": "male",
 			"name": {
@@ -3354,6 +3526,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 17,
+			"department": "tech",
 			"username": "amadeu.ramos",
 			"gender": "male",
 			"name": {
@@ -3393,6 +3567,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "tech",
 			"username": "vilmar.damata",
 			"gender": "male",
 			"name": {
@@ -3432,6 +3608,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "tech",
 			"username": "lvia.teixeira",
 			"gender": "female",
 			"name": {
@@ -3471,6 +3649,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 17,
+			"department": "tech",
 			"username": "edenira.dacunha",
 			"gender": "female",
 			"name": {
@@ -3510,6 +3690,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "hemaxi.daconceicao",
 			"gender": "male",
 			"name": {
@@ -3549,6 +3731,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 4,
+			"department": "administrative",
 			"username": "cursino.lima",
 			"gender": "male",
 			"name": {
@@ -3588,6 +3772,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "wanda.daconceicao",
 			"gender": "female",
 			"name": {
@@ -3627,6 +3813,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "administrative",
 			"username": "pepe.teixeira",
 			"gender": "male",
 			"name": {
@@ -3666,6 +3854,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 14,
+			"department": "tech",
 			"username": "maritana.daconceicao",
 			"gender": "female",
 			"name": {
@@ -3705,6 +3895,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "administrative",
 			"username": "aderito.damota",
 			"gender": "male",
 			"name": {
@@ -3744,6 +3936,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "tech",
 			"username": "eliseu.pinto",
 			"gender": "male",
 			"name": {
@@ -3783,6 +3977,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "sales",
 			"username": "silene.darocha",
 			"gender": "female",
 			"name": {
@@ -3822,6 +4018,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "tech",
 			"username": "alexandrino.duarte",
 			"gender": "male",
 			"name": {
@@ -3861,6 +4059,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 14,
+			"department": "sales",
 			"username": "goncalo.sales",
 			"gender": "male",
 			"name": {
@@ -3900,6 +4100,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 18,
+			"department": "tech",
 			"username": "olinto.monteiro",
 			"gender": "male",
 			"name": {
@@ -3939,6 +4141,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "sales",
 			"username": "amavel.ramos",
 			"gender": "male",
 			"name": {
@@ -3978,6 +4182,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "administrative",
 			"username": "gui.alves",
 			"gender": "male",
 			"name": {
@@ -4017,6 +4223,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "administrative",
 			"username": "januario.monteiro",
 			"gender": "male",
 			"name": {
@@ -4056,6 +4264,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "jandirene.castro",
 			"gender": "female",
 			"name": {
@@ -4095,6 +4305,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 18,
+			"department": "tech",
 			"username": "zaido.aragao",
 			"gender": "male",
 			"name": {
@@ -4134,6 +4346,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "tech",
 			"username": "adruzilo.fogaca",
 			"gender": "male",
 			"name": {
@@ -4173,6 +4387,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "administrative",
 			"username": "liara.cardoso",
 			"gender": "female",
 			"name": {
@@ -4212,6 +4428,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "tech",
 			"username": "laissa.souza",
 			"gender": "female",
 			"name": {
@@ -4251,6 +4469,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "sales",
 			"username": "ambrosio.farias",
 			"gender": "male",
 			"name": {
@@ -4290,6 +4510,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "tech",
 			"username": "elisa.cardoso",
 			"gender": "female",
 			"name": {
@@ -4329,6 +4551,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "sales",
 			"username": "vando.fogaca",
 			"gender": "male",
 			"name": {
@@ -4368,6 +4592,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "administrative",
 			"username": "vilator.almeida",
 			"gender": "male",
 			"name": {
@@ -4407,6 +4633,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "tech",
 			"username": "aderito.dacosta",
 			"gender": "male",
 			"name": {
@@ -4446,6 +4674,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "sales",
 			"username": "nancy.silva",
 			"gender": "female",
 			"name": {
@@ -4485,6 +4715,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "administrative",
 			"username": "higino.lopes",
 			"gender": "male",
 			"name": {
@@ -4524,6 +4756,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "administrative",
 			"username": "catarina.dapaz",
 			"gender": "female",
 			"name": {
@@ -4563,6 +4797,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "sueli.campos",
 			"gender": "female",
 			"name": {
@@ -4602,6 +4838,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "tech",
 			"username": "delfim.rezende",
 			"gender": "male",
 			"name": {
@@ -4641,6 +4879,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "tech",
 			"username": "erico.pires",
 			"gender": "male",
 			"name": {
@@ -4680,6 +4920,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 4,
+			"department": "tech",
 			"username": "nestor.ramos",
 			"gender": "male",
 			"name": {
@@ -4719,6 +4961,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "administrative",
 			"username": "mair.rocha",
 			"gender": "male",
 			"name": {
@@ -4758,6 +5002,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "sales",
 			"username": "irmino.pires",
 			"gender": "male",
 			"name": {
@@ -4797,6 +5043,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "sales",
 			"username": "joselaine.darocha",
 			"gender": "female",
 			"name": {
@@ -4836,6 +5084,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 7,
+			"department": "tech",
 			"username": "quevin.darosa",
 			"gender": "male",
 			"name": {
@@ -4875,6 +5125,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 14,
+			"department": "tech",
 			"username": "romarilda.pereira",
 			"gender": "female",
 			"name": {
@@ -4914,6 +5166,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "tech",
 			"username": "sivio.santos",
 			"gender": "male",
 			"name": {
@@ -4953,6 +5207,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "tech",
 			"username": "dalva.freitas",
 			"gender": "female",
 			"name": {
@@ -4992,6 +5248,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "administrative",
 			"username": "anice.rocha",
 			"gender": "female",
 			"name": {
@@ -5031,6 +5289,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "administrative",
 			"username": "belina.porto",
 			"gender": "female",
 			"name": {
@@ -5070,6 +5330,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "nivaldo.lima",
 			"gender": "male",
 			"name": {
@@ -5109,6 +5371,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "sales",
 			"username": "tassia.moreira",
 			"gender": "female",
 			"name": {
@@ -5148,6 +5412,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "sales",
 			"username": "herminio.souza",
 			"gender": "male",
 			"name": {
@@ -5187,6 +5453,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "administrative",
 			"username": "neia.damata",
 			"gender": "female",
 			"name": {
@@ -5226,6 +5494,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "sales",
 			"username": "bedete.freitas",
 			"gender": "female",
 			"name": {
@@ -5265,6 +5535,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "administrative",
 			"username": "ubiara.goncalves",
 			"gender": "female",
 			"name": {
@@ -5304,6 +5576,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 4,
+			"department": "administrative",
 			"username": "xenocrates.porto",
 			"gender": "male",
 			"name": {
@@ -5343,6 +5617,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "administrative",
 			"username": "grace.cardoso",
 			"gender": "female",
 			"name": {
@@ -5382,6 +5658,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "sales",
 			"username": "isis.fernandes",
 			"gender": "female",
 			"name": {
@@ -5421,6 +5699,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "administrative",
 			"username": "germano.moura",
 			"gender": "male",
 			"name": {
@@ -5460,6 +5740,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "tech",
 			"username": "nice.sales",
 			"gender": "female",
 			"name": {
@@ -5499,6 +5781,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "administrative",
 			"username": "josefina.darosa",
 			"gender": "female",
 			"name": {
@@ -5538,6 +5822,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "tech",
 			"username": "gonzaga.ferreira",
 			"gender": "male",
 			"name": {
@@ -5577,6 +5863,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "tech",
 			"username": "zaide.campos",
 			"gender": "female",
 			"name": {
@@ -5616,6 +5904,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 20,
+			"department": "sales",
 			"username": "teodosio.pinto",
 			"gender": "male",
 			"name": {
@@ -5655,6 +5945,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "administrative",
 			"username": "cosme.darocha",
 			"gender": "male",
 			"name": {
@@ -5694,6 +5986,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 18,
+			"department": "administrative",
 			"username": "jadiara.damota",
 			"gender": "female",
 			"name": {
@@ -5733,6 +6027,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "sales",
 			"username": "ventura.desouza",
 			"gender": "male",
 			"name": {
@@ -5772,6 +6068,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "isandro.damata",
 			"gender": "male",
 			"name": {
@@ -5811,6 +6109,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 7,
+			"department": "tech",
 			"username": "lindoro.lima",
 			"gender": "male",
 			"name": {
@@ -5850,6 +6150,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "tech",
 			"username": "lisuarte.pereira",
 			"gender": "male",
 			"name": {
@@ -5889,6 +6191,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "sales",
 			"username": "naod.pereira",
 			"gender": "male",
 			"name": {
@@ -5928,6 +6232,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "sales",
 			"username": "liberto.farias",
 			"gender": "male",
 			"name": {
@@ -5967,6 +6273,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "administrative",
 			"username": "irina.cavalcanti",
 			"gender": "female",
 			"name": {
@@ -6006,6 +6314,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 1,
+			"department": "sales",
 			"username": "odalissa.lopes",
 			"gender": "female",
 			"name": {
@@ -6045,6 +6355,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "administrative",
 			"username": "otelo.silveira",
 			"gender": "male",
 			"name": {
@@ -6084,6 +6396,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "administrative",
 			"username": "roberto.silveira",
 			"gender": "male",
 			"name": {
@@ -6123,6 +6437,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "sales",
 			"username": "afonsino.campos",
 			"gender": "male",
 			"name": {
@@ -6162,6 +6478,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "administrative",
 			"username": "ngela.alves",
 			"gender": "female",
 			"name": {
@@ -6201,6 +6519,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "sales",
 			"username": "deise.fogaca",
 			"gender": "female",
 			"name": {
@@ -6240,6 +6560,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "administrative",
 			"username": "rosano.damota",
 			"gender": "male",
 			"name": {
@@ -6279,6 +6601,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "sales",
 			"username": "diana.vieira",
 			"gender": "female",
 			"name": {
@@ -6318,6 +6642,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 14,
+			"department": "administrative",
 			"username": "alexandra.duarte",
 			"gender": "female",
 			"name": {
@@ -6357,6 +6683,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 17,
+			"department": "administrative",
 			"username": "benta.souza",
 			"gender": "female",
 			"name": {
@@ -6396,6 +6724,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 9,
+			"department": "administrative",
 			"username": "hortensia.dacosta",
 			"gender": "female",
 			"name": {
@@ -6435,6 +6765,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "administrative",
 			"username": "eneias.rodrigues",
 			"gender": "male",
 			"name": {
@@ -6474,6 +6806,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "sales",
 			"username": "hemiterio.lopes",
 			"gender": "male",
 			"name": {
@@ -6513,6 +6847,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 15,
+			"department": "sales",
 			"username": "emaus.damota",
 			"gender": "male",
 			"name": {
@@ -6552,6 +6888,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 18,
+			"department": "tech",
 			"username": "zardilaque.vieira",
 			"gender": "male",
 			"name": {
@@ -6591,6 +6929,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 4,
+			"department": "administrative",
 			"username": "lindalva.carvalho",
 			"gender": "female",
 			"name": {
@@ -6630,6 +6970,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 14,
+			"department": "administrative",
 			"username": "getulio.moreira",
 			"gender": "male",
 			"name": {
@@ -6669,6 +7011,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "tech",
 			"username": "bibiana.cardoso",
 			"gender": "female",
 			"name": {
@@ -6708,6 +7052,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 11,
+			"department": "tech",
 			"username": "josselino.aragao",
 			"gender": "male",
 			"name": {
@@ -6747,6 +7093,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 2,
+			"department": "administrative",
 			"username": "donzilio.dasneves",
 			"gender": "male",
 			"name": {
@@ -6786,6 +7134,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "administrative",
 			"username": "sandra.oliveira",
 			"gender": "female",
 			"name": {
@@ -6825,6 +7175,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 11,
+			"department": "administrative",
 			"username": "aristoteles.nunes",
 			"gender": "male",
 			"name": {
@@ -6864,6 +7216,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 9,
+			"department": "sales",
 			"username": "telo.silveira",
 			"gender": "male",
 			"name": {
@@ -6903,6 +7257,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 10,
+			"department": "tech",
 			"username": "elzeario.farias",
 			"gender": "male",
 			"name": {
@@ -6942,6 +7298,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "tech",
 			"username": "eduardo.rocha",
 			"gender": "male",
 			"name": {
@@ -6981,6 +7339,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "tech",
 			"username": "cenilda.duarte",
 			"gender": "female",
 			"name": {
@@ -7020,6 +7380,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 6,
+			"department": "tech",
 			"username": "onofre.lopes",
 			"gender": "male",
 			"name": {
@@ -7059,6 +7421,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 17,
+			"department": "tech",
 			"username": "amauri.teixeira",
 			"gender": "male",
 			"name": {
@@ -7098,6 +7462,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 14,
+			"department": "sales",
 			"username": "dagmar.pereira",
 			"gender": "female",
 			"name": {
@@ -7137,6 +7503,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "sales",
 			"username": "cirleni.duarte",
 			"gender": "female",
 			"name": {
@@ -7176,6 +7544,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 3,
+			"department": "sales",
 			"username": "luciano.goncalves",
 			"gender": "male",
 			"name": {
@@ -7215,6 +7585,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 5,
+			"department": "administrative",
 			"username": "orlanda.damota",
 			"gender": "female",
 			"name": {
@@ -7254,6 +7626,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 7,
+			"department": "administrative",
 			"username": "marito.ribeiro",
 			"gender": "male",
 			"name": {
@@ -7293,6 +7667,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "tech",
 			"username": "sauro.aragao",
 			"gender": "male",
 			"name": {
@@ -7332,6 +7708,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 12,
+			"department": "tech",
 			"username": "selene.dias",
 			"gender": "female",
 			"name": {
@@ -7371,6 +7749,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 9,
+			"department": "sales",
 			"username": "antonio.cavalcanti",
 			"gender": "male",
 			"name": {
@@ -7410,6 +7790,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "sales",
 			"username": "ariadna.santos",
 			"gender": "female",
 			"name": {
@@ -7449,6 +7831,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 9,
+			"department": "tech",
 			"username": "bendita.castro",
 			"gender": "female",
 			"name": {
@@ -7488,6 +7872,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 8,
+			"department": "administrative",
 			"username": "ainhoa.souza",
 			"gender": "female",
 			"name": {
@@ -7527,6 +7913,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 20,
+			"department": "sales",
 			"username": "heldemaro.almeida",
 			"gender": "male",
 			"name": {
@@ -7566,6 +7954,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 13,
+			"department": "administrative",
 			"username": "marcus.dapaz",
 			"gender": "male",
 			"name": {
@@ -7605,6 +7995,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 19,
+			"department": "sales",
 			"username": "deolindo.martins",
 			"gender": "male",
 			"name": {
@@ -7644,6 +8036,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 0,
+			"department": "administrative",
 			"username": "apolinario.rocha",
 			"gender": "male",
 			"name": {
@@ -7683,6 +8077,8 @@
 			}
 	},
 	{
+			"yearsAtCompany": 16,
+			"department": "administrative",
 			"username": "linda.dacosta",
 			"gender": "female",
 			"name": {

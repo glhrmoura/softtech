@@ -11,20 +11,23 @@
           :src="require('@/assets/videos/home-intro.mp4')"
         />
       </video>
+
       <div class="home-page__intro-content">
         <div class="home-page__intro-content__center container">
           <h1 class="home-page__intro-content__title">
             Come be <span class="home-page__intro-content__title--spotlight">tech</span>
           </h1>
+
           <p class="home-page__intro-content__description">
             SoftTech offers innovative and customized solutions to improve the efficiency and competitiveness of its customers.
           </p>
+
           <RouterLink
             tag="button"
-            to="/users"
-            class="btn btn-primary home-page__intro-content__btn-users"
+            to="/team"
+            class="btn btn-primary home-page__intro-content__btn-team"
           >
-            Meet our users
+            Meet our team
           </RouterLink>
         </div>
       </div>
@@ -34,7 +37,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: 'Home',
 };
 </script>
 
@@ -131,7 +134,7 @@ export default {
   );
 }
 
-.home-page__intro-content__btn-users {
+.home-page__intro-content__btn-team {
   margin-top: 20px;
 
   @include media-queries(

@@ -16,12 +16,12 @@
       />
     </RouterLink>
 
-    <RouterLink tag="div" to="/users" class="mobile-nav__item">
+    <RouterLink tag="div" to="/team" class="mobile-nav__item">
       <div
         class="mobile-nav__item-icon"
         :style="{
-          mask: `url('${require('@/assets/icons/users.svg')}')`,
-          webkitMask: `url('${require('@/assets/icons/users.svg')}')`,
+          mask: `url('${require('@/assets/icons/team.svg')}')`,
+          webkitMask: `url('${require('@/assets/icons/team.svg')}')`,
           maskRepeat: 'no-repeat',
           webkitMaskRepeat: 'no-repeat',
           maskSize: 'contain',

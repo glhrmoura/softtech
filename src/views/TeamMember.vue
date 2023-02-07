@@ -1,46 +1,46 @@
 <template>
-  <div class="user-details container">
+  <div class="team-member container">
     <Loading
       v-if="loading"
       :active="true"
       :is-full-page="false"
     />
 
-    <section v-else-if="user" class="user-details__content">
-      <div class="user-details__info-header">
+    <section v-else-if="member" class="team-member__content">
+      <div class="team-member__info-header">
         <img
-          alt="User photo"
-          :srcset="user.picture.large"
-          class="user-details__picture"
+          alt="Team member photo"
+          :srcset="member.picture.large"
+          class="team-member__picture"
         />
-        <h1 class="user-details__name">
-          {{ user.name.first }} {{ user.name.last }}
+        <h1 class="team-member__name">
+          {{ member.name.first }} {{ member.name.last }}
         </h1>
       </div>
-      <div class="user-details__info-container">
-        <ul class="user-details__infos">
-          <li class="user-details__info">
-            <span class="user-details__info-name">
+      <div class="team-member__info-container">
+        <ul class="team-member__infos">
+          <li class="team-member__info">
+            <span class="team-member__info-name">
               <img :src="require('@/assets/icons/email.svg')" alt="Envelope icon">
             </span>
-            <span class="user-details__info-value">
-              {{ user.email }}
+            <span class="team-member__info-value">
+              {{ member.email }}
             </span>
           </li>
-          <li class="user-details__info">
-            <span class="user-details__info-name">
+          <li class="team-member__info">
+            <span class="team-member__info-name">
               <img :src="require('@/assets/icons/phone.svg')" alt="Smartphone icon">
             </span>
-            <span class="user-details__info-value">
-              {{ user.phone }}
+            <span class="team-member__info-value">
+              {{ member.phone }}
             </span>
           </li>
-          <li class="user-details__info">
-            <span class="user-details__info-name">
+          <li class="team-member__info">
+            <span class="team-member__info-name">
               <img :src="require('@/assets/icons/location.svg')" alt="Building icon">
             </span>
-            <span class="user-details__info-value">
-              {{ user.location.city }}, {{ user.location.state }}
+            <span class="team-member__info-value">
+              {{ member.location.city }}, {{ member.location.state }}
             </span>
           </li>
         </ul>
@@ -51,31 +51,27 @@
 
 <script>
 export default {
-  name: 'UserDetails',
+  name: 'TeamMember',
 
   data() {
     return {
-      user: null,
+      member: null,
       loading: false,
     };
   },
 
   mounted() {
-    this.loadUser();
+    this.loadTeamMember();
   },
 
   methods: {
-    async loadUser() {
+    async loadTeamMember() {
       this.loading = true;
 
       const { username } = this.$route.params;
 
-      const payload = {
-        username,
-      };
-
       try {
-        this.user = await this.$store.dispatch('users/fetchUser', payload);
+        this.member = await this.$store.dispatch('team/fetchTeamMember', { username });
       } finally {
         this.loading = false;
       }
@@ -85,7 +81,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.user-details {
+.team-member {
   display: flex;
   justify-content: center;
   padding: 16px;
@@ -93,7 +89,7 @@ export default {
   min-height: 100%;
 }
 
-.user-details__content {
+.team-member__content {
   display: flex;
   align-items: center;
   position: relative;
@@ -118,7 +114,7 @@ export default {
   ))
 }
 
-.user-details__info-header {
+.team-member__info-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,7 +127,7 @@ export default {
   ))
 }
 
-.user-details__name {
+.team-member__name {
   text-transform: capitalize;
   font-size: 45px;
   font-weight: 900;
@@ -147,27 +143,27 @@ export default {
   ))
 }
 
-.user-details__picture {
+.team-member__picture {
   border-radius: 100%;
   width: 150px;
   height: 150px;
   border: 1px solid $primaryBorderColor;
 }
 
-.user-details__info-container {
+.team-member__info-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.user-details__infos {
+.team-member__infos {
   padding: 0px;
   margin: 0px;
   list-style: none;
   width: 100%;
 }
 
-.user-details__info {
+.team-member__info {
   display: flex;
   align-items: center;
   margin: 12px;
@@ -178,7 +174,7 @@ export default {
   }
 }
 
-.user-details__info-name {
+.team-member__info-name {
   margin-right: 16px;
 
   img {
@@ -187,7 +183,7 @@ export default {
   }
 }
 
-.user-details__info-value {
+.team-member__info-value {
   flex: 1;
   font-size: 14px;
   text-align: left;
@@ -195,8 +191,8 @@ export default {
   line-height: 2;
 }
 
-.user-details__info:nth-child(3), .user-details__info:nth-child(4) {
-  .user-details__info-value {
+.team-member__info:nth-child(3), .team-member__info:nth-child(4) {
+  .team-member__info-value {
     text-transform: capitalize;
   }
 }

@@ -25,8 +25,8 @@
             </RouterLink>
           </li>
           <li class="header__link">
-            <RouterLink to="/users">
-              Users
+            <RouterLink to="/team">
+              Team
             </RouterLink>
           </li>
         </ul>

@@ -1,6 +1,6 @@
 <template>
-  <div class="users-page container">
-    <UserFilter
+  <div class="team-page container">
+    <TeamMemberFilter
       :filters="filters"
       @input="onFilter"
     />
@@ -11,20 +11,20 @@
       :is-full-page="false"
     />
 
-    <section v-else-if="usersFiltered.length" class="users-page__cards">
-      <UserCard
-        :user="user"
-        :key="user.email"
-        v-for="user in usersPaginated"
+    <section v-else-if="teamFiltered.length" class="team-page__cards">
+      <TeamMemberCard
+        :member="member"
+        :key="member.email"
+        v-for="member in teamPaginated"
       />
     </section>
 
-    <div v-else class="users-page__empty-result">
-      <p>No users found</p>
+    <div v-else class="team-page__empty-result">
+      <p>No team found</p>
     </div>
 
-    <div v-if="!loading && pageCount" class="users-page__pagination">
-      <pagination
+    <div v-if="!loading && pageCount" class="team-page__pagination">
+      <Pagination
         v-model="selected"
         prev-text="Voltar"
         next-text="Avançar"
@@ -40,20 +40,25 @@
 <script>
 import { mapGetters } from 'vuex';
 
-import { byTypes, byAge, byName, byGender } from '@/utils/users';
+import {
+  byName,
+  byGender,
+  byDepartments,
+  byYearsAtCompany,
+} from '@/utils/team';
 
-import UserCard from '@/components/UserCard';
-import UserFilter from '@/components/UserFilter';
+import TeamMemberCard from '@/components/TeamMemberCard';
+import TeamMemberFilter from '@/components/TeamMemberFilter';
 
 import Pagination from '@/components/Pagination.vue';
 
 export default {
-  name: 'Users',
+  name: 'Team',
 
   components: {
-    UserCard,
     Pagination,
-    UserFilter,
+    TeamMemberCard,
+    TeamMemberFilter,
   },
 
   data () {
@@ -62,13 +67,13 @@ export default {
 
       loading: false,
 
-      users: [],
+      team: [],
 
       filters: {
-        age: 100,
         name: '',
-        types: [],
         genders: [],
+        departments: [],
+        yearsAtCompany: 0,
       },
 
       pagination: {
@@ -82,7 +87,7 @@ export default {
     try {
       this.loading = true;
 
-      this.users = await this.$store.dispatch('users/fetchUsers');
+      this.team = await this.$store.dispatch('team/fetchTeam');
     } finally {
       this.loading = false;
     }
@@ -118,27 +123,27 @@ export default {
     },
 
     countFiltered() {
-      return this.usersFiltered.length;
+      return this.teamFiltered.length;
     },
 
-    usersPaginated() {
+    teamPaginated() {
       const { pagination = {} } = this;
 
       const paginate = !pagination.skip
         ? [0, pagination.perPage]
         : [ pagination.skip, pagination.skip + pagination.perPage ];
 
-      return this.usersFiltered.slice(...paginate);
+      return this.teamFiltered.slice(...paginate);
     },
 
-    usersFiltered() {
+    teamFiltered() {
       const { filters = {} } = this;
 
-      return this.users
-        .filter(byTypes(filters.types))
-        .filter(byGender(filters.genders))
+      return this.team
         .filter(byName(filters.name))
-        .filter(byAge(filters.age));
+        .filter(byGender(filters.genders))
+        .filter(byDepartments(filters.departments))
+        .filter(byYearsAtCompany(filters.yearsAtCompany));
     },
   },
 
@@ -149,7 +154,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.users-page {
+.team-page {
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -168,7 +173,7 @@ export default {
   ))
 }
 
-.users-page__empty-result {
+.team-page__empty-result {
   display: flex;
   justify-content: center;
   font-size: 24px;
@@ -184,13 +189,13 @@ export default {
   ))
 }
 
-.users-page__loading {
+.team-page__loading {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.users-page__cards {
+.team-page__cards {
   display: grid;
   grid-gap: 12px;
   padding: 12px;
@@ -207,7 +212,7 @@ export default {
   ))
 }
 
-.users-page__pagination {
+.team-page__pagination {
   display: flex;
   align-items: center;
   justify-content: center;
