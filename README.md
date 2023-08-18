@@ -22,20 +22,6 @@ Website of a fictitious company called "SoftTech". In it we will be able to obta
 - Vue Router
 - Scss
 
-### Setup
-
-#### Install
-
-```
-yarn install
-```
-
-#### Run
-
-```
-yarn serve
-```
-
 ### License
 
 [MIT](https://github.com/glhrmoura/softtech/blob/main/LICENSE)
